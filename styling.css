@@ -1,0 +1,9 @@
+img {
+    width: 250px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 10px;
+}
+body{
+    background-color: aquamarine;
+}
