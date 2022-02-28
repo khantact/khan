@@ -1,15 +1,24 @@
-body{
-    background-color: rgb(37, 37, 37);
+body {
+  background-color: rgb(37, 37, 37);
 }
-h1.nav{
-    text-align: center;
-    color: rgb(197, 197, 197);
-    margin-top: auto;
-    font-size: 25px;
-    word-spacing: 50px;
+h1.nav {
+  text-align: center;
+  color: rgb(197, 197, 197);
+  margin-top: auto;
+  font-size: 25px;
+  word-spacing: 50px;
 }
-h2.name{
-    text-align: left;
-    color:rgb(197, 197, 197);
-    font-size: 35px;
+h2.name {
+  text-align: left;
+  color: rgb(197, 197, 197);
+  font-size: 35px;
+}
+img.pfp {
+  border-radius: 100%;
+  width: 150px;
+  float: left;
+}
+
+h1.header {
+  position: relative;
 }
