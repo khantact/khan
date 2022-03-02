@@ -104,6 +104,15 @@ h1.header {
 #portfolio {
   text-align: center;
 }
+#wordleheading {
+  text-align: left;
+  margin: 2.5vw;
+}
 #gitpic:hover {
   content: url(images/portfolio/GitHub-Mark-32px.png);
+}
+#wordlesc {
+  margin-right: 75%;
+  max-height: 40vh;
+  max-width: 40vw;
 }
