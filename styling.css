@@ -53,12 +53,10 @@ body {
   border-radius: 50%;
   max-width: 8em;
   max-height: 8em;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  position: absolute;
+  left: 13vw;
   width: 50%;
-  height: auto;
-  float: center;
+  float: left;
 }
 #aboutheader {
   color: rgb(247, 247, 255);
