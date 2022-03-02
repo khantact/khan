@@ -1,62 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: rgb(37, 50, 55);
-  color: rgb(191, 189, 193);
   margin: 0;
+  padding: 0;
+  background-color: rgb(4, 7, 17);
+  color: rgb(255, 255, 252);
   width: 100%;
   font-family: "Fredoka", sans-serif;
-}
-#about {
-  text-decoration: none;
-  color: rgb(191, 189, 193);
-  display: block;
-  font-size: 35px;
-  text-align: right;
-  padding: 10px;
-  font-family: "Fredoka", sans-serif;
-  font-weight: normal;
-}
-a.nav {
-  text-decoration: none;
-  color: rgb(191, 189, 193);
-  display: block;
-  font-size: 35px;
-  padding: 10px;
-  font-family: "Fredoka", sans-serif;
-  font-weight: normal;
-}
-#ab {
-  text-align: right;
-  background-color: rgb(4, 138, 129);
-}
-li.nav {
-  float: left;
-  background-color: rgb(4, 138, 129);
 }
 
-ul.nav {
-  list-style-type: none;
-  margin: 0;
+/* Nav Bar */
+.navbar {
+  background-color: rgba(37, 50, 55, 0.5);
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0;
   width: 100%;
-  padding: 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 252);
+  font-size: 1.5em;
+}
+.navbar a:hover {
+  background-color: rgb(1, 97, 90);
+}
+#bgimage {
+  background-image: url(https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?cs=srgb&dl=pexels-stein-egil-liland-3374210.jpg&fm=jpg);
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
+#header {
+  text-align: center;
+}
+#bio {
+  text-align: center;
 }
 
 #name {
-  text-align: left;
-  font-size: 35px;
+  position: center;
+  margin-top: 30vh;
+  font-size: 6em;
 }
 #pfp {
-  border: 1px solid;
+  position: relative;
+  left: 15vw;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  max-width: 12em;
+  max-height: 12em;
+  width: auto;
+  height: auto;
   float: left;
 }
-#aboutsect {
-  color: rgb(4, 138, 129);
-  background: rgb(191, 189, 193);
+#aboutheader {
+  color: rgb(247, 247, 255);
+  text-align: center;
 }
 h1.header {
+  margin-top: 40px;
+  color: rgb(247, 247, 255);
+  text-align: center;
+}
+#about_bio {
   position: relative;
+  bottom: 45%;
+  left: 15%;
+  margin: 6vw;
+  text-align: center;
+  word-wrap: break-word;
+  float: none;
+  width: 50vw;
+  line-height: 30px;
 }
