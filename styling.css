@@ -53,10 +53,9 @@ body {
   border-radius: 50%;
   max-width: 8em;
   max-height: 8em;
-  position: absolute;
-  left: 13vw;
   width: 50%;
   float: left;
+  margin-left: 20vw;
 }
 #aboutheader {
   color: rgb(247, 247, 255);
@@ -92,7 +91,7 @@ h1.header {
   font-size: larger;
   color: rgb(1, 97, 90);
   font-family: "Fredoka", sans-serif;
-  padding: 20px 20px;
+  padding: 18px 18px;
   cursor: pointer;
 }
 #dlresume:hover {
