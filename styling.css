@@ -101,3 +101,9 @@ h1.header {
 .folio {
   background-color: rgb(2, 124, 147);
 }
+#portfolio {
+  text-align: center;
+}
+#gitpic:hover {
+  content: url(images/portfolio/GitHub-Mark-32px.png);
+}
