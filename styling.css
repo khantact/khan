@@ -76,6 +76,11 @@ h1.header {
 #skills {
   text-align: center;
 }
+#skheader {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #profile {
   margin: 0 auto;
   max-width: 50%;
@@ -98,21 +103,34 @@ h1.header {
   background-color: rgb(149, 149, 150);
 }
 
-.folio {
-  background-color: rgb(2, 124, 147);
-}
 #portfolio {
   text-align: center;
+  overflow: hidden;
+  background-color: rgb(2, 124, 147);
 }
-#wordleheading {
-  text-align: left;
-  margin: 2.5vw;
-}
+
 #gitpic:hover {
   content: url(images/portfolio/GitHub-Mark-32px.png);
 }
-#wordlesc {
-  margin-right: 75%;
-  max-height: 40vh;
-  max-width: 40vw;
+
+.projects {
+  display: inline;
+  max-width: fit-content;
+  text-align: center;
+}
+#wrdle {
+  width: 33%;
+  float: left;
+  background-color: rgb(2, 124, 147);
+}
+#WorkerSimulation {
+  width: 33%;
+  float: right;
+}
+#ccard {
+  width: 33%;
+  margin: 0 auto;
+}
+#wrdle ul {
+  display: inline-block;
 }
