@@ -45,6 +45,7 @@ body {
 #bgimage {
   background-image: url(https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?cs=srgb&dl=pexels-stein-egil-liland-3374210.jpg&fm=jpg);
   background-size: cover;
+  background-attachment: fixed;
   margin: 0 auto;
   height: 100vh;
 }
@@ -114,7 +115,7 @@ h1.header {
   background-color: rgb(149, 149, 150);
 }
 
-#homework {
+#portfolio {
   text-align: center;
   overflow: hidden;
   background-color: rgb(2, 124, 147);
@@ -140,6 +141,7 @@ h1.header {
   max-width: 45vw;
   max-height: 45vh;
 }
+
 #WorkerSimulation {
   width: 33%;
   float: right;
@@ -155,4 +157,9 @@ h1.header {
 #PersonalProjects {
   padding: 1vh;
   background-color: rgb(2, 124, 147);
+}
+#resume {
+  text-align: center;
+  padding: 1vh;
+  background-color: #01464e;
 }
