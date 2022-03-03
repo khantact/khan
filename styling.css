@@ -81,7 +81,7 @@ h1.header {
   text-align: center;
   float: none;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 45vw;
   line-height: 30px;
 }
 #skills {
@@ -144,4 +144,5 @@ h1.header {
 }
 #wrdle ul {
   display: inline-block;
+  text-align: left;
 }
