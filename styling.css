@@ -163,3 +163,56 @@ h1.header {
   padding: 1vh;
   background-color: #01464e;
 }
+.timeline {
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+}
+.tline {
+  background-color: #fff;
+  color: black;
+  padding: 10px 25px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  line-height: 1.7;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.tline::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+}
+.tline::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #ddd transparent transparent;
+  border-width: 8px;
+  position: absolute;
+  left: -17px;
+  top: 10px;
+}
+.tline h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.tline h3 {
+  margin: 0;
+}
+.tlineh4 {
+  margin: 0;
+}
+.timeline {
+  text-align: left;
+}
