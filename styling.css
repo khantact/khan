@@ -261,6 +261,8 @@ ul {
 }
 #linktolinkedin {
   -webkit-transition: color 0.5s;
+  overflow: hidden;
+  display: inline-block;
   transition: color 0.5s;
   overflow: hidden;
   text-decoration: none;
