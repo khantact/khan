@@ -160,7 +160,7 @@ h1.header {
 #resume {
   text-align: center;
   padding: 1vh;
-  background-color: #01464e;
+  background-color: #05142b;
 }
 .timeline {
   margin: 90px auto;
@@ -214,4 +214,19 @@ h1.header {
 }
 .timeline {
   text-align: left;
+}
+#contact {
+  padding: 1vh;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?cs=srgb&dl=pexels-alex-conchillos-3745234.jpg&fm=jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#linkedin {
+  width: 33%;
+  float: left;
+}
+#mail {
+  width: 33%;
+  margin: 0 auto;
 }
