@@ -151,7 +151,7 @@ a {
 #newtab {
   position: relative;
   left: 8vw;
-  top: 2vh;
+  top: -2vh;
 }
 
 .stats {
