@@ -132,9 +132,12 @@ h1.header {
   text-align: center;
 }
 .sqproject {
+  margin-left: 10px;
+  margin-right: 10px;
   width: 20vw;
   height: 25vh;
   box-sizing: border-box;
+  border: 2px solid rgba(247, 247, 255, 1);
   padding: 2vw;
   border-radius: 10%;
   background-color: #020918;
@@ -157,7 +160,7 @@ a {
 
 .sqproject:hover {
   color: #020918;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 .sqproject:hover .overlay {
   bottom: 0;
