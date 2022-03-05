@@ -135,7 +135,7 @@ h1.header {
   margin-left: 10px;
   margin-right: 10px;
   width: 20vw;
-  height: 25vh;
+  max-height: 30vh;
   box-sizing: border-box;
   border: 2px solid rgba(247, 247, 255, 1);
   padding: 2vw;
@@ -167,9 +167,12 @@ a {
   height: 100%;
   border-radius: 10%;
 }
+#prjcthead {
+  margin: -1vh;
+}
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
