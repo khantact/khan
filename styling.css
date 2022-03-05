@@ -132,8 +132,8 @@ h1.header {
   text-align: center;
 }
 .sqproject {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5vw;
+  margin-right: 5vw;
   width: 20vw;
   max-height: 30vh;
   box-sizing: border-box;
