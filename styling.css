@@ -220,6 +220,7 @@ ul {
 }
 #websc {
   display: block;
+  max-width: 80vw;
   margin: 0 auto;
 }
 #resume {
