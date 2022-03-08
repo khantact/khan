@@ -154,10 +154,12 @@ a {
   top: -2vh;
 }
 
-.stats {
-  font-size: 14px;
+.text {
+  font-size: 1em;
 }
-
+.text .web {
+  cursor: default;
+}
 .sqproject:hover {
   color: #020918;
   transform: scale(1.05, 1.05);
@@ -187,12 +189,12 @@ a {
   left: 0;
   right: 0;
   background-color: #020918;
-  cursor: pointer;
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: 0.5s ease;
 }
+
 #wrdle {
   width: 33%;
   float: left;
