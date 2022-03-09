@@ -24,6 +24,7 @@ body {
 
 /* Nav Bar */
 .navbar {
+  z-index: 1;
   background-color: rgba(37, 50, 55, 0.5);
   overflow: hidden;
   text-align: center;
@@ -33,6 +34,7 @@ body {
 }
 
 .navbar a {
+  z-index: 1;
   display: inline-block;
   padding: 14px 16px;
   text-decoration: none;
