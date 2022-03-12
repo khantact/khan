@@ -151,9 +151,9 @@ a {
   color: white;
 }
 #newtab {
-  position: relative;
-  left: 8vw;
-  top: -2vh;
+  position: absolute;
+  right: 0vw;
+  top: 0vh;
 }
 
 .text {
