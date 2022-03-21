@@ -25,7 +25,7 @@ body {
 /* Nav Bar */
 .navbar {
   z-index: 1;
-  background-color: rgba(37, 50, 55, 0.5);
+  background-color: rgba(37, 50, 55, 0);
   overflow: hidden;
   text-align: center;
   position: fixed;
@@ -312,7 +312,7 @@ ul {
   -webkit-transition: color 0.5s;
   transition: 0.5s;
   position: relative;
-  top: 12vh;
+  top: 20vh;
   width: 33%;
   margin: 0 auto;
   text-decoration: none;
