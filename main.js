@@ -4,14 +4,6 @@ window.onscroll = () =>{
     navToOpaque();
 }
 
-// window.onload = function(){
-// if (window.jQuery){
-//     alert('yes');
-// } else{
-//     alert('no');
-// }
-// }
-
 function navToOpaque(){
     if (window.pageYOffset > vh*100){
         document.querySelector('.navbar').style.display= "none";
